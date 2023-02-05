@@ -8,6 +8,9 @@ jobs:
   default-env-variables:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+
       - name: Run SeatJunky Scraper
         run: |
-          python3 ./sj_events/main.py
+          python3 sj_events/main.py
