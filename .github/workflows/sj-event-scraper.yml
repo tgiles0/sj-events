@@ -1,5 +1,7 @@
 name: SeatJunky Event Scraper
-
+on:
+  schedule:
+    - cron: '0 13 * * 1'
 
 jobs:
   default-env-variables:
