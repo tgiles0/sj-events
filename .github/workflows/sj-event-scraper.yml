@@ -1,0 +1,11 @@
+name: SeatJunky Event Scraper
+
+
+jobs:
+  default-env-variables:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SeatJunky Scraper
+        run: |
+          cd sj_events
+          poetry run python3 main.py
