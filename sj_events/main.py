@@ -1,4 +1,4 @@
-from sj_events import constants
+import constants
 from clients.seat_junky import SeatJunky
 
 if __name__ == '__main__':
