@@ -1,4 +1,4 @@
-from sj_events import constants
+import sj_events.constants as constants
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
