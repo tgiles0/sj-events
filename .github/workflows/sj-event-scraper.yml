@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Run SeatJunky Scraper
         run: |
-          poetry run python3 main.py
+          python3 ./sj_events/main.py
